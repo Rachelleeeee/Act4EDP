@@ -166,7 +166,9 @@ namespace Act4EDP
 
         private void agentlbl_Click(object sender, EventArgs e)
         {
-
+             My_Agent myAgentForm = new My_Agent();
+             myAgentForm.Show();
+             this.Close();
         }
 
         private void mtchlbl_Click(object sender, EventArgs e)
